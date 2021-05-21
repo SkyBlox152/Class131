@@ -18,6 +18,7 @@ function setup() {
 function draw() {
     image(video, 0, 0, 500, 500);
     if (status != "") {
+        document.getElementById("num").innerHTML=object.length;
          r=random(255);
          g=random(255);
          b=random(255);
